@@ -1,0 +1,12 @@
+# Ignore raw data files and folders
+data/
+*.csv
+*.xlsx
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Power BI temporary files
+*.tmp
+*.bak
