@@ -18,28 +18,28 @@ This project analyzes Brighton & Hove Albion’s transfer market efficiency, eva
 
 ## 🛠️ End-to-End Workflow 
     
-    `+-----------------------------------+        
-    |  1. Excel Data Prep & Cleaning    |        
-    |  - Kaggle Transfermarkt Data      |        
-    |  - Inbound & Outbound Data        |        
-    |  - Standardized CSV Exports       |        
-    +-----------------------------------+        
-    │        
-    ▼        
-    +-----------------------------------+        
-    |  2. SQL Server Engineering        |        
-    |  - Staging flat files & cleaning  |        
-    |  - Creating SQL views (season &   |        
-    |    trading partner aggregations)  |        
-    +-----------------------------------+        
-    │        
-    ▼        
-    +-----------------------------------+        
-    |  3. Power BI Analytics Dashboard  |        
-    |  - Executive KPI Summary Cards    |        
-    |  - Net Balance YoY Column Chart   |        
-    |  - Top 10 Outbound Sales Table    |        
-    +-----------------------------------+        
+    `+-----------------------------------+          
+    |  1. Excel Data Prep & Cleaning    |          
+    |  - Kaggle Transfermarkt Data      |          
+    |  - Inbound & Outbound Data        |          
+    |  - Standardized CSV Exports       |          
+    +-----------------------------------+          
+    │          
+    ▼          
+    +-----------------------------------+          
+    |  2. SQL Server Engineering        |          
+    |  - Staging flat files & cleaning  |          
+    |  - Creating SQL views (season &   |          
+    |    trading partner aggregations)  |          
+    +-----------------------------------+          
+    │          
+    ▼          
+    +-----------------------------------+          
+    |  3. Power BI Analytics Dashboard  |          
+    |  - Executive KPI Summary Cards    |          
+    |  - Net Balance YoY Column Chart   |          
+    |  - Top 10 Outbound Sales Table    |          
+    +-----------------------------------+          
     `
 
 ### 1\. Excel (Data Preprocessing)
