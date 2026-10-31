@@ -12,40 +12,39 @@ This project analyzes Brighton & Hove Albion’s transfer market efficiency, eva
 
 1. **Invest first, sell later.** Brighton ran a net deficit for four seasons (17/18-20/21) before the model turned.
 2. **Sales concentrated in the last three seasons.** 
-3. **Heavy reliance on a few buyers.** Chelsea alone accounts for about half of the sales revenue, and Chelsea and Arsenal together for roughly 70%. 
+3. **Heavy reliance on a few buyers.** Chelsea alone accounts for about half of the sales revenue, and Chelsea and Arsenal together for roughly 70%.
 
 ---
 
 ## 🛠️ End-to-End Workflow 
     
-    `+-----------------------------------+      
-    |  1. Excel Data Prep & Cleaning    |      
-    |  - Kaggle Transfermarkt Data      |      
-    |  - Inbound & Outbound Data        |      
-    |  - Standardized CSV Exports       |      
-    +-----------------------------------+      
-    │      
-    ▼      
-    +-----------------------------------+      
-    |  2. SQL Server Engineering        |      
-    |  - Staging flat files & cleaning  |      
-    |  - Creating SQL views (season &   |      
-    |    trading partner aggregations)  |      
-    +-----------------------------------+      
-    │      
-    ▼      
-    +-----------------------------------+      
-    |  3. Power BI Analytics Dashboard  |      
-    |  - Executive KPI Summary Cards    |      
-    |  - Net Balance YoY Column Chart   |      
-    |  - Top 10 Outbound Sales Table    |      
-    +-----------------------------------+      
-    \`  
+    `+-----------------------------------+        
+    |  1. Excel Data Prep & Cleaning    |        
+    |  - Kaggle Transfermarkt Data      |        
+    |  - Inbound & Outbound Data        |        
+    |  - Standardized CSV Exports       |        
+    +-----------------------------------+        
+    │        
+    ▼        
+    +-----------------------------------+        
+    |  2. SQL Server Engineering        |        
+    |  - Staging flat files & cleaning  |        
+    |  - Creating SQL views (season &   |        
+    |    trading partner aggregations)  |        
+    +-----------------------------------+        
+    │        
+    ▼        
+    +-----------------------------------+        
+    |  3. Power BI Analytics Dashboard  |        
+    |  - Executive KPI Summary Cards    |        
+    |  - Net Balance YoY Column Chart   |        
+    |  - Top 10 Outbound Sales Table    |        
+    +-----------------------------------+        
     `
 
 ### 1\. Excel (Data Preprocessing)
 
-* Extracted raw inbound and outbound transfer data from Kaggle (Transfermarkt).
+* Extracted raw inbound and outbound transfer data from the source data.
 * Cleaned and filtered records to isolate **Brighton & Hove Albion** across seasons from **2016/17 through 2023/24**.
 * Formatted numerical values, standardized currency metrics into Euros (€), and exported clean datasets (`transfer_inbound_clean.csv` and `transfers_outbound_clean.csv`).
 
