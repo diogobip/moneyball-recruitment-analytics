@@ -1,4 +1,4 @@
-# Brighton & Hove Albion FC: Moneyball Transfer Recruitment Analytics (2016–2024)
+# Brighton & Hove Albion FC: Moneyball Transfer Recruitment Analytics (2017–2024)
 
 ## 📌 Research Question
 
@@ -6,41 +6,41 @@
 
 This project analyzes Brighton & Hove Albion’s transfer market efficiency, evaluating how their scouting model identifies undervalued talent, drives high-margin player sales, and executes a disciplined, reinvestment-driven recruitment cycle.
 
-  
 ---
 
 ## 💡 Key Analytical Findings
 
-1. **The Profit Pivot (2021–2024):** Following initial squad-building phases, Brighton scaled into a high-margin "talent extractor" model driven by marquee outbound player sales.
-2. **High-Margin Player Flipping:** Major outbound transfers—such as Moisés Caicedo (€116M), Marc Cucurella (€65.3M), and Ben White (€58.5M)—generated substantial capital gains relative to acquisition costs\[cite: 4\].
-3. **Sustainable Net-Neutral Reinvestment:** Rather than accumulating a passive cash surplus, Brighton ran a tight net spend (-€10.1M across the period), continuously recycling sale proceeds directly back into squad depth to sustain Premier League competitiveness.
+1. **Invest first, sell later.** Brighton ran a net deficit for four seasons (17/18-20/21) before the model turned.
+2. **Sales concentrated in the last three seasons.** 
+3. **Heavy reliance on a few buyers.** Chelsea alone accounts for about half of the sales revenue, and Chelsea and Arsenal together for roughly 70%. 
 
 ---
 
 ## 🛠️ End-to-End Workflow 
     
-    `+-----------------------------------+    
-    |  1. Excel Data Prep & Cleaning    |    
-    |  - Kaggle Transfermarkt Data      |    
-    |  - Inbound & Outbound Data        |    
-    |  - Standardized CSV Exports       |    
-    +-----------------------------------+    
-    │    
-    ▼    
-    +-----------------------------------+    
-    |  2. SQL Server Engineering        |    
-    |  - Staging flat files & cleaning  |    
-    |  - Creating SQL views (season &   |    
-    |    trading partner aggregations)  |    
-    +-----------------------------------+    
-    │    
-    ▼    
-    +-----------------------------------+    
-    |  3. Power BI Analytics Dashboard  |    
-    |  - Executive KPI Summary Cards    |    
-    |  - Net Balance YoY Column Chart   |    
-    |  - Top 10 Outbound Sales Table    |    
-    +-----------------------------------+    
+    `+-----------------------------------+      
+    |  1. Excel Data Prep & Cleaning    |      
+    |  - Kaggle Transfermarkt Data      |      
+    |  - Inbound & Outbound Data        |      
+    |  - Standardized CSV Exports       |      
+    +-----------------------------------+      
+    │      
+    ▼      
+    +-----------------------------------+      
+    |  2. SQL Server Engineering        |      
+    |  - Staging flat files & cleaning  |      
+    |  - Creating SQL views (season &   |      
+    |    trading partner aggregations)  |      
+    +-----------------------------------+      
+    │      
+    ▼      
+    +-----------------------------------+      
+    |  3. Power BI Analytics Dashboard  |      
+    |  - Executive KPI Summary Cards    |      
+    |  - Net Balance YoY Column Chart   |      
+    |  - Top 10 Outbound Sales Table    |      
+    +-----------------------------------+      
+    \`  
     `
 
 ### 1\. Excel (Data Preprocessing)
@@ -68,7 +68,7 @@ Built a focused, executive-ready single-page dashboard to present key financial 
 
 ## 📊 Dataset & Metric Definitions
 
-* **Source: **Football Data from Transfermarkt by David Cariboo
+* **Source:**Football Data from Transfermarkt by David Cariboo
 * **Primary Metrics:**
   * **`transfer_fee`:** Agreed transfer fee measured in Millions of Euros (€M)
   * **`net_transfer_balance`:** Total Outbound Sales (€) minus Total Inbound Spend (€)
