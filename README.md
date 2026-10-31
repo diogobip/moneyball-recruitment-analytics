@@ -4,8 +4,6 @@
 
 > **"How effectively has Brighton & Hove Albion generated transfer market value and high-margin player sales while maintaining financial sustainability since 2016?"** 
 
-This project analyzes Brighton & Hove Albion’s transfer market efficiency, evaluating how their scouting model identifies undervalued talent, drives high-margin player sales, and executes a disciplined, reinvestment-driven recruitment cycle.
-
 ---
 
 ## 💡 Key Analytical Findings
@@ -18,28 +16,28 @@ This project analyzes Brighton & Hove Albion’s transfer market efficiency, eva
 
 ## 🛠️ End-to-End Workflow 
     
-    `+-----------------------------------+          
-    |  1. Excel Data Prep & Cleaning    |          
-    |  - Kaggle Transfermarkt Data      |          
-    |  - Inbound & Outbound Data        |          
-    |  - Standardized CSV Exports       |          
-    +-----------------------------------+          
-    │          
-    ▼          
-    +-----------------------------------+          
-    |  2. SQL Server Engineering        |          
-    |  - Staging flat files & cleaning  |          
-    |  - Creating SQL views (season &   |          
-    |    trading partner aggregations)  |          
-    +-----------------------------------+          
-    │          
-    ▼          
-    +-----------------------------------+          
-    |  3. Power BI Analytics Dashboard  |          
-    |  - Executive KPI Summary Cards    |          
-    |  - Net Balance YoY Column Chart   |          
-    |  - Top 10 Outbound Sales Table    |          
-    +-----------------------------------+          
+    `+-----------------------------------+            
+    |  1. Excel Data Prep & Cleaning    |            
+    |  - Kaggle Transfermarkt Data      |            
+    |  - Inbound & Outbound Data        |            
+    |  - Standardized CSV Exports       |            
+    +-----------------------------------+            
+    │            
+    ▼            
+    +-----------------------------------+            
+    |  2. SQL Server Engineering        |            
+    |  - Staging flat files & cleaning  |            
+    |  - Creating SQL views (season &   |            
+    |    trading partner aggregations)  |            
+    +-----------------------------------+            
+    │            
+    ▼            
+    +-----------------------------------+            
+    |  3. Power BI Analytics Dashboard  |            
+    |  - Executive KPI Summary Cards    |            
+    |  - Net Balance YoY Column Chart   |            
+    |  - Top 10 Outbound Sales Table    |            
+    +-----------------------------------+            
     `
 
 ### 1\. Excel (Data Preprocessing)
@@ -73,4 +71,4 @@ Built a focused, executive-ready single-page dashboard to present key financial 
   * **`net_transfer_balance`:** Total Outbound Sales (€) minus Total Inbound Spend (€)
 * **Why these metrics matter:** Tracking net transfer balance alongside player acquisition costs proves whether a club's recruitment model operates as a self-sustaining financial cycle rather than relying purely on external owner subsidies
 * **Some notes:** There are a lot of 0’s and Nulls on the database,this constitutes loans or free tranfers.
-* There are also nulls that means that there non disclosed transfers.
+* There are also nulls that means that there non disclosed transfers
